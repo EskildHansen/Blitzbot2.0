@@ -12,7 +12,7 @@ module.exports.run = async(client, message, args) => {
         modhelpembed.addField('.kick', 'Kicks a player')
         modhelpembed.addField('.mute', 'mutes a player')
         modhelpembed.addField('.unmute', 'unmutes a muted player')
-        modhelpembed.addField('.purge', 'Clears the amount of messages you have specified')
+        modhelpembed.addField('.prune', 'Clears the amount of messages you have specified')
     
             message.channel.send(modhelpembed)
 
